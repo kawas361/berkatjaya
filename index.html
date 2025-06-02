@@ -1,10 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Website Berkat Jaya</title>
+  <style>
+    /* Reset dan dasar styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      max-width: 600px;
+      width: 100%;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1.125rem;
+      margin-bottom: 20px;
+    }
+    a {
+      color: #0077cc;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #004a99;
+      text-decoration: underline;
+    }
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+      .container {
+        padding: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Selamat datang di Website Berkat Jaya!</h1>
-  <p>Kunjungi GitHub Pages kami di <a href="https://kawas361.github.io/berkatjaya/" target="_blank">https://kawas361.github.io/berkatjaya/</a></p>
+  <div class="container">
+    <h1>Selamat datang di Website Berkat Jaya!</h1>
+    <p>Kunjungi GitHub Pages kami di <a href="https://kawas361.github.io/berkatjaya/" target="_blank" rel="noopener noreferrer">https://kawas361.github.io/berkatjaya/</a></p>
+  </div>
 </body>
 </html>
